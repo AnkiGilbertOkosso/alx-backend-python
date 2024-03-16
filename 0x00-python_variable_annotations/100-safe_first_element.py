@@ -5,7 +5,7 @@ from typing import Any, Sequence, Union
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
-    '''Retrieves the first element of a sequence if the 
+    '''Retrieves the first element of a sequence if the
     element exists.
     '''
     if lst:
